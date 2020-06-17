@@ -1,0 +1,57 @@
+
+Tutorial para colocar Servidor Tibia-Global (BRZKS STORE) online com Uniform Server  e Site. 
+
+1 - Download Tibia-Global (BRZKS STORE):  LINK ENVIADO NO ATO DA COMPRA!
+ 
+1.1 - Download Uniform Server + ZeroXIII PHP 5.6.30: 
+https://sourceforge.net/projects/miniserver/files/Uniform Server ZeroXIII/13_3_2_ZeroXIII/13_3_2_ZeroXIII.exe/download 
+https://sourceforge.net/projects/miniserver/files/Uniform Server ZeroXIII/ZeroXIIImodules/ZeroXIII_php_5_6_30_j.exe/download 
+1.2 - Download MyAAC 
+MyAAC:  LINK ENVIADO NO ATO DA COMPRA! (DENTRO DA PASTA DO SERVIDOR)
+ 
+
+2 - Instalação do Uniform Server 
+- Instale o Uniform Server (13_3_2_ZeroXIII) na unidade C:\. 
+- Exemplo: 
+
+- Na unidade C:\ após a instalação, o nome da pasta é UniServerZ. 
+- Instale o ZeroXIII PHP 5.6.30 no diretório do UniServerZ, em C:\UniServerZ. 
+- Ao abrir o Uniform Server, uma janela será aberta perguntando a senha MySQL root: 
+
+- Configure a senha ou utilize a senha padrão neste caso é root. 
+- Antes de utilizar o Uniform Server, clique em PHP > Select PHP version > PHP version 56. 
+- Uniform Server está pronto para uso. 
+
+
+3 - Database 
+- Acesse o PHPMyAdmin pelo Uniform Server. 
+- Na lateral esquerda clique em +New e crie uma database (ex: brzks_store) 
+- Importe o arquivo schema.sql que está na pasta do Servidor/Site. 
+
+4 - Config.lua 
+- Entre na pasta do Tibia-Global (BRZKS STORE); 
+- Configure o IP de conexão (no caso foi configurado para 127.0.0.1 (localhost); 
+- Coloque a senha do PHPMyAdmin (se configurada); 
+- Se a senha do PHPMyAdmin não foi alterada no Uniform Server, a senha padrão é root. 
+- Coloque o nome da database criada . 
+Exemplo: 
+                                                -- Connection Config
+                                                ip = "127.0.0.1"
+
+                                                - MySQL
+                                                mysqlHost = "127.0.0.1"
+                                                mysqlUser = "root"
+                                                mysqlPass = "root"
+                                                mysqlDatabase = "brzks_store"
+                                                mysqlPort = 3306
+                                                mysqlSock = ""
+                                                passwordType = "sha1"
+
+5 - Site 
+- Lembre-se de deixar a pasta www vazia antes de salvar os arquivos e pastas do site. 
+- Mova os arquivos do site que estão dentro da pasta do ot/website , diretamente na pasta www do Uniform Server.  
+- Deixe todos os arquivos e pastas do MyAAC conforme o exemplo abaixo: 
+
+- Acesse http://127.0.0.1 para carregar o MyAAC. 
+- Siga as etapas de instalação para instalar o MyAAC.
+- Após instalado basta ligar o servidor e se divertir com o client 12 que está junto com a pasta do ot com ip 127.0.0.1

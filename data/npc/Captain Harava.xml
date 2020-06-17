@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="A Captain Harava" script="issaviBack.lua" walkinterval="2000" floorchange="0">
+	<look type="1199" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|. Do you want to to{venore}?"/>
+	<health now="100" max="100" />
+		
+</npc>

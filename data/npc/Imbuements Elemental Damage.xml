@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Elemental Damage Imbuements" script="Imbuements Elemental Damage.lua" walkinterval="2000" floorchange="0">
+	<health now="1000" max="1000" />
+	<look type="325" head="96" body="95" legs="0" feet="114" addons="2" />
+	<parameters>
+		<parameter key="message_farewell" value="Yes, bye!." />
+		<parameter key="message_walkaway" value="?" />
+		<parameter key="message_greet" value="Hmmm, well, hello |PLAYERNAME|." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			demon horn,5954,10000;
+			demonic skeletal hand,10564,100;
+			energy vein,26164,500;
+			fiery heart,10553,400;
+			frosty heart,10578,300;
+			green dragon scale,5920,200;
+			peacock feather fan,24631,300;
+			petrified scream,11337,200;
+			pile of grave earth,12440,100;
+			poisonous slime,10557,100;
+			polar bear paw,10567,100;
+			rorc feather,21310,100;
+			seacrest hair,24170,300;
+			slime heart,23565,200;
+			swamp grass,10603,100;" />
+		<parameter key="shop_sellable" value="" />
+	</parameters>
+</npc>

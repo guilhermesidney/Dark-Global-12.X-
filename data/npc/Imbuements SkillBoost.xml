@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="SkillBoost Imbuements" script="Imbuements SkillBoost.lua" walkinterval="2000" floorchange="0">
+	<health now="1000" max="1000" />
+	<look type="147" head="22" body="94" legs="79" feet="117" addons="2" />
+	<parameters>
+		<parameter key="message_farewell" value="Yes, bye!." />
+		<parameter key="message_walkaway" value="?" />
+		<parameter key="message_greet" value="Hmmm, well, hello |PLAYERNAME|." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			battle stone,12403,500;
+			brimstone shell,12659,500;
+			broken shamanic staff,12408,500;
+			compass,11219,100;
+			crystallized anger,26163,500;
+			cyclops toe,10574,100;
+			damselfly wing,19738,100;
+			elven hoof,21311,500;
+			elven scouting glass,12420,100;
+			elvish talisman,10552,100;
+			fairy wings,28999,1000;
+			frazzle skin,22533,500;
+			goosebump leather,22539,1000;
+			lion's mane,10608,100;
+			ike mummy's spirit,29007,1000;
+			metal spike,11215,500;
+			mooh'tah shell,23573,100;
+			moohtant horn,23571,500;
+			ogre nose ring,24845,1000;
+			orc tooth,11113,500;
+			piece of scarab shell,10558,100;
+			quill,33314,10000;
+			shimmering beetles,28998,500;
+			single human eye,29006,5000;
+			strand of medusa hair,11226,1000;
+			war crystal,10571,500;
+			warmaster's wristguards,11322,500;
+			waspoid wing,15484,200;
+			wereboar hooves,24709,200;" />
+		<parameter key="shop_sellable" value="" />
+	</parameters>
+</npc>

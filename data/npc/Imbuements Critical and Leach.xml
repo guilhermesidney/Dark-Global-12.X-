@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Critical and Leach Imbuements" script="Imbuements Critical and Leach.lua" walkinterval="2000" floorchange="0">
+	<health now="1000" max="1000" />
+	<look type="156" head="22" body="94" legs="79" feet="117" addons="2" />
+	<parameters>
+		<parameter key="message_farewell" value="Yes, bye!." />
+		<parameter key="message_walkaway" value="?" />
+		<parameter key="message_greet" value="Hmmm, well, hello |PLAYERNAME|." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			bloody pincers,10550,4000;
+			piece of dead brain,10580,15000;
+			protective charm,12400,2000;
+			rope belt,12448,3500;
+			sabretooth,11228,5000;
+			silencer claws,22534,500;
+			some grimeleech wings,25386,10000;
+			vampire teeth,10602,500;
+			vexclaw talon,25384,10000;" />
+		<parameter key="shop_sellable" value=""  />
+	</parameters>
+</npc>

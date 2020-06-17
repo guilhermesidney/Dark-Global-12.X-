@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Elemental Protection Imbuements" script="Imbuements Elemental Protection.lua" walkinterval="2000" floorchange="0">
+	<health now="1000" max="1000" />
+	<look type="513" head="0" body="114" legs="126" feet="0" addons="2" />
+	<parameters>
+		<parameter key="message_farewell" value="Yes, bye!." />
+		<parameter key="message_walkaway" value="?" />
+		<parameter key="message_greet" value="Hmmm, well, hello |PLAYERNAME|." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			blazing bone,18425,800;
+			brimstone fangs,12658,400;
+			crawler head plating,15482,300;
+			cultish mask,10555,400;
+			cultish robe,10556,300;
+			deepling warts,15425,300;
+			draken sulphur,12614,1000;
+			flask of embalming fluid,12422,100;
+			gloom wolf fur,24663,100;
+			green dragon leather,5877,300;
+			hellspawn tail,11221,600;
+			mystical hourglass,10577,1000;
+			piece of swampling wood,20103,100;
+			snake skin,10611,400;
+			thick fur,11224,400;
+			winter wolf fur,11212,100;
+			wyrm scale,10582,800;
+			wyvern talisman,10561,500;" />
+		<parameter key="shop_sellable" value="" />
+	</parameters>
+</npc>
